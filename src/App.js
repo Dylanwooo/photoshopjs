@@ -10,7 +10,7 @@ import MainComponent from './components/main/MainComponent';
 import UploadButton from './components/main/UploadBtn';
 import SiderComponent from './components/sider/SiderComponent';
 import {Provider} from 'react-redux';
-import store from './models/store';
+import {store} from './models/store';
 
 function App() {
   return (

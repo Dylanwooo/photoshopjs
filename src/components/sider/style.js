@@ -1,12 +1,15 @@
 import styled from 'styled-components';
 
-export const DivideWrap = styled.p`
+export const DivideWrap = styled.div`
   color: #eee;
   font-size: 18px;
   line-height: 20px;
   text-align: center;
   letter-spacing: 2px;
   font-weight: 200;
+  background: rgba(0, 0, 0, 0.1);
+  line-height: 42px;
+  height: 42px;
 `;
 
 export const ItemWrap = styled.li`

@@ -1,8 +1,16 @@
 export const imageInfo = {
-  state: '',
+  state: {blobUrl: '', imgData: []},
   reducers: {
     loadImage(state, payload) {
-      return payload;
+      return Object.assign({}, state, {blobUrl: payload});
+    },
+    loadImageData(state, payload) {
+      return Object.assign({}, state, {imgData: payload});
     },
   },
+};
+
+export const FilterProcess = {
+  state: '',
+  reducers: {},
 };

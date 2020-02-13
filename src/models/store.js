@@ -1,8 +1,8 @@
 import {init} from '@rematch/core';
 import * as models from './model';
 
-const store = init({
+export const store = init({
   models,
 });
 
-export default store;
+export const {dispatch} = store;
